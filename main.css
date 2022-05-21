@@ -1,22 +1,24 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     background-color: hsl(223, 19%, 93%);
     font-family: 'Rubik', sans-serif;
 }
 
-.conteiner{
+.conteiner {
     margin: 2em auto;
     width: 1000px;
 }
-span{
+
+span {
     color: hsl(238, 40%, 52%);
     font-weight: 500;
 }
-.item1{
+
+.item1 {
     display: flex;
     padding: 1.5em;
     width: 80%;
@@ -26,86 +28,93 @@ span{
     margin: 1em;
     border-radius: 10px;
     box-shadow: 1px 1px 1px 1px gainsboro;
-    
+
 }
-.section1{
+
+.section1 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
     background-color: hsl(223, 19%, 93%);
     width: 2em;
+    height: 4em;
     margin-right: 1em;
     border-radius: 8px;
     padding: 0.5em;
-    filter: saturate(3); 
+    filter: saturate(3);
 }
 
-.cabecera{
+.cabecera {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 1em;
 }
-.cabecera figure{
-    display:flex; 
+
+.cabecera figure {
+    display: flex;
     align-items: center;
-    gap: 1.5em;         
+    gap: 1.5em;
 }
 
-.cabecera figure img{
+.cabecera figure img {
     width: 40px;
 }
-.parrafo{
+
+.parrafo {
     font-size: 15px;
     line-height: 25px;
     color: lightslategray;
 }
-.conteiner2{
+
+.conteiner2 {
     display: flex;
     flex-direction: column;
     padding-left: 3em;
-    
-
 }
-.iconos{
+
+.iconos {
     width: 150px;
     display: flex;
-    justify-content: space-between;  
+    justify-content: space-between;
 }
-.delete span{
+
+.delete span {
     color: #ED6368;
 }
+
 .cont-34 {
     padding-left: 2em;
     margin-left: 2 em;
     border-left: 1px solid gray;
 }
 
-.section3{
+.section3 {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     width: 100%;
 }
-.section3 img{
+
+.section3 img {
     width: 40px;
 }
-textarea{
+
+textarea {
     width: 630px;
     height: 80px;
+    font-family: 'Rubik', sans-serif;
+    padding-top: 1em;
+    padding-left: 1em;
+
 }
-.section3 button{
+
+.section3 button {
     background-color: hsl(238, 40%, 52%);
     color: white;
-    padding: 1em 1.5em;
+    padding: 0.8em 1.5em;
     font-size: 16px;
     border-radius: 10px;
-    border:none;
+    border: none;
 }
-
-
-
-
-
-
