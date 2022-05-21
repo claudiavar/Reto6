@@ -68,11 +68,18 @@ span{
     
 
 }
+.iconos{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;  
+}
+.delete span{
+    color: #ED6368;
+}
 .cont-34 {
     padding-left: 2em;
     margin-left: 2 em;
     border-left: 1px solid gray;
-
 }
 
 .section3{
@@ -85,7 +92,7 @@ span{
     width: 40px;
 }
 textarea{
-    width: 600px;
+    width: 630px;
     height: 80px;
 }
 .section3 button{
